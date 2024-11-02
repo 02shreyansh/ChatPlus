@@ -10,16 +10,21 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1E2732"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile":"./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shreyansh.chatNow",
+      "permissions":[
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -27,10 +32,27 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "@react-native-google-signin/google-signin"
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission":"Allow $(PRODUCT_NAME) to access your photos",
+          "cameraPermission":"Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission":"Allow $(PRODUCT_NAME) to access your microphone"
+        }
+      ]
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPaths":true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd077ff8-2844-4197-9555-181e3a2c03b5"
+      }
     }
   }
 }
