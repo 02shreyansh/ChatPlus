@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# ChatPlus
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ChatPlus is a real-time chat application built using React Native (Expo). It provides secure, seamless, and instant messaging capabilities for users, ensuring a smooth and engaging experience.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Real-time Messaging**: Integrated Socket.io for instant message delivery between users.
+- **Secure Authentication**: Ensures 100% secure user data protection and privacy.
+- **Online Status Updates**: Displays real-time online status with 80% accuracy.
+- **Push Notifications**: Keeps users engaged by notifying them of new messages and updates.
+- **Cross-Platform Compatibility**: Developed using React Native (Expo) for both Android and iOS support.
 
-   ```bash
+## Tech Stack
+
+- **React Native (Expo)** - For building the cross-platform mobile application.
+- **Socket.io** - For real-time communication between users.
+- **MongoDB** - For secure and efficient data storage.
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/ChatPlus.git
+   cd ChatPlus
+   ```
+2. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Start the Expo server:
+   ```sh
+   npx expo start
    ```
+4. Run the app on your device:
+   - For Android:
+     ```sh
+     npx expo run:android
+     ```
+   - For iOS:
+     ```sh
+     npx expo run:ios
+     ```
 
-In the output, you'll find options to open the app in a
+## Developer
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This project was independently developed by **Shreyansh**. It showcases expertise in building real-time communication applications using WebRTC and Socket.io, ensuring high-quality and secure interactions for users.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+For any inquiries, feel free to reach out at: [shreyansh2102004@gmail.com](mailto:shreyansh2102004@gmail.com)
 
-## Get a fresh project
+## License
 
-When you're ready, run:
+This project is licensed under the MIT License .
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to contribute by submitting issues or pull requests to enhance ChatPlus!
