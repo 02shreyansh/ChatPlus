@@ -1,8 +1,8 @@
-# ChatPlus
+# 📱 ChatPlus
 
 ChatPlus is a real-time chat application built using React Native (Expo). It provides secure, seamless, and instant messaging capabilities for users, ensuring a smooth and engaging experience.
 
-## Features
+## 🚀 Features
 
 - **Real-time Messaging**: Integrated Socket.io for instant message delivery between users.
 - **Secure Authentication**: Ensures 100% secure user data protection and privacy.
@@ -10,13 +10,13 @@ ChatPlus is a real-time chat application built using React Native (Expo). It pro
 - **Push Notifications**: Keeps users engaged by notifying them of new messages and updates.
 - **Cross-Platform Compatibility**: Developed using React Native (Expo) for both Android and iOS support.
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **React Native (Expo)** - For building the cross-platform mobile application.
 - **Socket.io** - For real-time communication between users.
 - **MongoDB** - For secure and efficient data storage.
 
-## Installation
+## 📥 Installation
 
 1. Clone the repository:
    ```sh
@@ -41,13 +41,13 @@ ChatPlus is a real-time chat application built using React Native (Expo). It pro
      npx expo run:ios
      ```
 
-## Developer
+## 👨‍💻 Developer
 
 This project was independently developed by **Shreyansh**. It showcases expertise in building real-time communication applications using WebRTC and Socket.io, ensuring high-quality and secure interactions for users.
 
 For any inquiries, feel free to reach out at: [shreyansh2102004@gmail.com](mailto:shreyansh2102004@gmail.com)
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License .
 
